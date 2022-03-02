@@ -6,29 +6,34 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="../../dist/output.css">
-	<title>Document</title>
+	<title>Login Page</title>
 </head>
 
 <body class="h-screen bg-stone-900 font-Code flex flex-col">
 	<div class="flex justify-center md:justify-end white">
-		<a href="#" class="w-7 mt-5 mr-4 white">
-			<svg xmlns="http://www.w3.org/2000/svg" class="hover:font-bold" fill="none" viewBox="0 0 24 24"
-				stroke="currentColor">
+		<a href="#" class="mt-4 mr-4 hover:font-bold p-1 text-xl hover:underline hover:decoration-4">SignUp</a>
+		<a href="#" class="w-6 mt-4 mr-4 flex">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-					d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+					d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
 			</svg>
 		</a>
-		<a href="#" class="mt-4 mr-4 hover:font-bold p-1 text-xl hover:underline hover:decoration-4">Login</a>
-		<a href="#" class="mt-4 mr-4 hover:font-bold p-1 text-xl hover:underline hover:decoration-4">SignUp</a>
 	</div>
-	<div class="flex flex-col justify-center items-center h-screen ">
-		<div class="mb-20">
-			<h1 class="white md:text-9xl flex justify-center font-light text-7xl">HomePage</h1>
+	<div class="flex flex-col justify-center items-center h-screen">
+		<div class="mb-14 white">
+			<div class="flex justify-center mb-2">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+					class="w-14">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+						d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" />
+				</svg>
+			</div>
+			<h3 class="text-6xl">Login</h3>
 		</div>
-		<input placeholder="exemple@gmail.com" type="text"
-			class="p-2 rounded-t mb-1 text-black placeholder:text-center placeholder:font-extralight">
+		<input placeholder="Email" type="email"
+			class="p-2 rounded-lg mb-1 text-black placeholder:text-center placeholder:font-extralight">
 		<input placeholder="Password" type="password"
-			class="p-2 rounded-b mb-2 placeholder:text-center placeholder:font-light">
+			class="p-2 rounded-lg mb-2 placeholder:text-center placeholder:font-light">
 		<div class="white">
 			<a href="#" class="font-normal text-gray-400 text-x hover:underline hover:decoration-1">Forget
 				password?</a>
@@ -42,5 +47,6 @@
 		</div>
 	</div>
 </body>
+<script src="../../public/App.js"></script>
 
 </html>
