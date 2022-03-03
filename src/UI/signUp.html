@@ -11,7 +11,8 @@
 
 <body class="h-screen bg-stone-900 font-Code flex flex-col">
 	<div class="flex justify-center md:justify-end white">
-		<a href="#" class="mt-4 mr-4 hover:font-bold p-1 text-xl hover:underline hover:decoration-4">Login</a>
+		<a href="./login.html"
+			class="mt-4 mr-4 hover:font-bold p-1 text-xl hover:underline hover:decoration-4">Login</a>
 		<a href="#" class="w-6 mt-4 mr-4 flex">
 			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -36,8 +37,8 @@
 		<input placeholder="Email" type="email" class="mb-1 rounded-lg p-3.5 placeholder:text-center outline-0">
 		<input placeholder="Password" type="password" class="mb-2 rounded-lg p-3.5 placeholder:text-center outline-0">
 		<div class="flex items-center h-20 white">
-			<button class="btn mr-5">Sign Up</button>
-			<button class="btn mr-5">
+			<button class="btn mr-5" id="signUp">Sign Up</button>
+			<button class="btn mr-5" id="github">
 				<div class="w-6 h-6">
 					<svg xmlns="http://www.w3.org/2000/svg" class="fill-white hover:fill-black" viewBox="0 0 24 24">
 						<path
@@ -45,7 +46,7 @@
 					</svg>
 				</div>
 			</button>
-			<button class="btn">
+			<button class="btn" id="gmail">
 				<div class="w-6 h-6">
 					<svg class="fill-white hover:fill-black" viewBox="0 0 20 20">
 						<path
@@ -58,5 +59,6 @@
 	</div>
 	</div>
 </body>
+<script src="../../public/App.js"></script>
 
 </html>

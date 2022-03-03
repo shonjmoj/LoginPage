@@ -11,6 +11,10 @@
 	@apply border p-2 rounded hover:font-bold hover:bg-white hover:text-black hover:p-3 ease-in-out duration-150;
 }
 
+.nav {
+	@apply mt-4 mr-4 hover:font-bold p-1 text-xl hover:underline hover:decoration-4;
+}
+
 * {
 	box-sizing: border-box;
 	margin: 0;
