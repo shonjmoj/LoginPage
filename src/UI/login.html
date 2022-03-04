@@ -10,7 +10,7 @@
 </head>
 
 <body class="h-screen bg-stone-900 font-Code flex flex-col">
-	<div class="flex justify-center md:justify-end white">
+	<div class="flex sm:justify-center md:justify-end white content-center">
 		<a href="./signUp.html" class="nav focus">SignUp</a>
 		<a href="#" class="w-6 mt-4 mr-4 flex outline-none">
 			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -30,10 +30,10 @@
 			</div>
 			<h3 class="text-6xl">Login</h3>
 		</div>
-		<input placeholder="Email" type="email"
-			class="p-2 rounded-lg mb-1 text-black placeholder:text-center placeholder:font-extralight outline-0 text-center">
-		<input placeholder="Password" type="password"
-			class="p-2 rounded-lg mb-2 placeholder:text-center placeholder:font-light outline-0 text-center">
+		<input placeholder="Email" type="email" id="email"
+			class="p-2 rounded-lg mb-1 text-black placeholder:text-center placeholder:font-extralight outline-stone-900 text-center">
+		<input placeholder="Password" type="password" id="passwd"
+			class="p-2 rounded-lg mb-2 placeholder:text-center placeholder:font-light outline-stone-900 text-center">
 		<div class="white">
 			<a href="#"
 				class="font-normal text-gray-400 text-x hover:underline hover:decoration-1 focus:underline focus:decoration-1 outline-none">Forget
@@ -43,15 +43,15 @@
 				<span class="py-2 text-s text-gray-300 leading-snug">Remember Me</span>
 			</label>
 		</div>
-		<div class="flex justify-center items-center h-20 white">
-			<button class="btn outline-stone-900" id="login">
+		<div class="flex justify-center items-center h-20">
+			<button class="btn outline-stone-900 white" id="login">
 				<a href="" class="outline-none">login</a>
 			</button>
 		</div>
 		<div class="white">
 			<button class="btn flex outline-stone-900">login with
 				<a href="#" class="outline-none"><img class="w-7 ml-2" alt="42 Logo"
-						src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/42_Logo.svg/256px-42_Logo.svg.png"></a>
+						src="https://upload.wikimedia.org/wikipedia/commons/8/8d/42_Logo.svg"></a>
 			</button>
 		</div>
 	</div>

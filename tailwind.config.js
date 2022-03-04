@@ -8,6 +8,6 @@ module.exports = {
     },
   },
   // plugins: [
-  //   require('@tailwind/custom-froms'),
+  //   require('@tailwindcss/custom-froms'),
   // ],
 }
