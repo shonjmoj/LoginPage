@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../../dist/output.css">
+	<title>Login Page</title>
+</head>
+
+<body class="h-screen bg-stone-900 font-Code flex flex-col">
+	<div class="flex sm:justify-center md:justify-end white">
+		<div class="flex m-3 justify-between items-center">
+			<a href="./signUp.html" class="nav focus m-2">SignUp</a>
+			<a href="#" class="w-6 outline-stone-900">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+						d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+				</svg>
+			</a>
+		</div>
+	</div>
+	<div class="flex flex-col justify-center items-center h-screen" id="container">
+		<div class="mb-14 white">
+			<div class="flex justify-center mb-2">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+					class="w-14">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+						d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" />
+				</svg>
+			</div>
+			<h3 class="text-6xl">Login</h3>
+		</div>
+		<input placeholder="Email" type="email" id="email"
+			class="p-2 rounded-lg mb-1 text-black placeholder:text-center placeholder:font-extralight outline-stone-900 text-center">
+		<input placeholder="Password" type="password" id="passwd"
+			class="p-2 rounded-lg mb-2 placeholder:text-center placeholder:font-light outline-stone-900 text-center">
+		<div class="white">
+			<a href="#"
+				class="font-normal text-gray-400 text-x hover:underline hover:decoration-1 focus:underline focus:decoration-1 outline-none">Forget
+				password?</a>
+			<label class="block">
+				<input type="checkbox" class="text-gray-300 mt-2 ml-2 outline-stone-900">
+				<span class="py-2 text-s text-gray-300 leading-snug">Remember Me</span>
+			</label>
+		</div>
+		<div class="flex justify-center items-center h-20">
+			<button class="btn outline-stone-900 white" id="login">
+				<a href="" class="outline-none">login</a>
+			</button>
+		</div>
+		<div class="white">
+			<button class="btn flex outline-stone-900">login with
+				<a href="#" class="outline-none"><img class="w-7 ml-2" alt="42 Logo"
+						src="https://upload.wikimedia.org/wikipedia/commons/8/8d/42_Logo.svg"></a>
+			</button>
+		</div>
+	</div>
+</body>
+<script src="../App.js"></script>
+<script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+
+</html>

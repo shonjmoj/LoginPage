@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss build src/UI/style.css -o dist/output.css --watch",
+    "build-css": "tailwindcss build public/UI/style.css -o dist/output.css --watch",
     "build": "tsc --watch",
     "start": "nodemon public/App.js"
   },

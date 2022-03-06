@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300;1,400&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.white {
+	@apply text-white;
+}
+
+.btn {
+	@apply border p-2 rounded hover:font-bold hover:bg-white hover:text-black hover:p-3 ease-in-out duration-150;
+}
+
+.nav {
+	@apply hover:font-bold p-1 text-xl hover:underline hover:decoration-4;
+}
+
+.hover {
+	@apply hover:underline hover:decoration-4 hover:font-bold;
+}
+
+.focus {
+	@apply focus:underline focus:outline-none focus:font-bold focus:decoration-4;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
