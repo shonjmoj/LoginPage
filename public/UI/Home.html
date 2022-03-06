@@ -11,7 +11,13 @@
 
 <body class="bg-stone-900">
 	<div class="bg-stone-900 font-Code flex flex-col">
-		<div class="md:justify-end white flex">
+		<div class="absolute white flex justify-center m-3 mt-24 p-3 items-center sm:m-3">
+			<svg xmlns="http://www.w3.org/2000/svg" class="w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+					d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+			</svg>
+		</div>
+		<div class="justify-center white flex md:justify-end">
 			<div class="flex justify-center m-3 items-center">
 				<a href="#" class="nav focus m-2">Home</a>
 				<a href="#" class="nav focus m-2">Profile</a>
@@ -26,23 +32,24 @@
 			</div>
 		</div>
 		<div id="dropdownNavbar" class="white flex justify-end">
-			<ul class="hidden md:m-2 rounded-lg border" aria-labelledby="dropdownLargeButton" id="list">
-				<li>
-					<a href="#"
-						class="block py-2 px-4 text-sm hover:bg-white hover:text-black focus:bg-white focus:text-black outline-none">Dashboard</a>
+			<ul class="hidden rounded-lg border" aria-labelledby="dropdownLargeButton" id="list">
+				<li
+					class="block py-2 px-4 hover:bg-white hover:text-black focus:bg-white focus:text-black outline-none rounded">
+					<a href="#" class="text-sm">Dashboard</a>
 				</li>
-				<li>
-					<a href="#"
-						class="block py-2 px-4 text-sm hover:bg-white hover:text-black focus:bg-white focus:text-black outline-none">Settings</a>
+				<li
+					class="block py-2 px-4 hover:bg-white hover:text-black focus:bg-white focus:text-black outline-none rounded">
+					<a href="#" class="text-sm">Settings</a>
 				</li>
-				<li>
-					<a href="#"
-						class="block py-2 px-4 text-sm hover:bg-white hover:text-black focus:bg-white focus:text-black outline-none">Earnings</a>
+				<li
+					class="block py-2 px-4 hover:bg-white hover:text-black focus:bg-white focus:text-black outline-none rounded">
+					<a href="#" class="text-sm">Earnings</a>
 				</li>
+				<li
+					class="block py-2 px-4 hover:bg-white hover:text-black focus:bg-white focus:text-black outline-none rounded">
+					<a href="./login.html" class="text-sm">Sign
+						out</a>
 				</li>
-				<a href="./login.html"
-					class="block py-2 px-4 text-sm hover:bg-white hover:text-black focus:bg-white focus:text-black outline-none">Sign
-					out</a>
 		</div>
 	</div>
 </body>

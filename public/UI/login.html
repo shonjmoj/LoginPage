@@ -10,7 +10,7 @@
 </head>
 
 <body class="h-screen bg-stone-900 font-Code flex flex-col">
-	<div class="flex sm:justify-center md:justify-end white">
+	<div class="flex justify-center md:justify-end white">
 		<div class="flex m-3 justify-between items-center">
 			<a href="./signUp.html" class="nav focus m-2">SignUp</a>
 			<a href="#" class="w-6 outline-stone-900">
@@ -32,10 +32,10 @@
 			</div>
 			<h3 class="text-6xl">Login</h3>
 		</div>
-		<input placeholder="Email" type="email" id="email"
-			class="p-2 rounded-lg mb-1 text-black placeholder:text-center placeholder:font-extralight outline-stone-900 text-center">
-		<input placeholder="Password" type="password" id="passwd"
-			class="p-2 rounded-lg mb-2 placeholder:text-center placeholder:font-light outline-stone-900 text-center">
+		<input placeholder="Email" type="email" id="email" value=""
+			class="p-2 rounded-lg mb-1 text-black placeholder:text-center placeholder:font-extralight text-center">
+		<input placeholder="Password" type="password" id="passwd" value=""
+			class="p-2 rounded-lg mb-2 placeholder:text-center placeholder:font-light  text-center">
 		<div class="white">
 			<a href="#"
 				class="font-normal text-gray-400 text-x hover:underline hover:decoration-1 focus:underline focus:decoration-1 outline-none">Forget
@@ -45,8 +45,8 @@
 				<span class="py-2 text-s text-gray-300 leading-snug">Remember Me</span>
 			</label>
 		</div>
-		<div class="flex justify-center items-center h-20">
-			<button class="btn outline-stone-900 white" id="login">
+		<div class="flex justify-center items-center h-20" id="login">
+			<button class="btn outline-stone-900 white" type="submit">
 				<a href="" class="outline-none">login</a>
 			</button>
 		</div>

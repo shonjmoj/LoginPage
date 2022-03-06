@@ -15,9 +15,12 @@ login?.addEventListener('click', e => {
 	const passwd = <HTMLInputElement>document.querySelector('#passwd');
 	const email = <HTMLInputElement>document.querySelector('#email');
 	if (!email.value && !passwd.value) {
-		login.parentElement!.parentElement!.innerHTML += `
-			<span>empty inputs</span>
-		`
-		// console.log(login.parentElement?.parentElement)
+		email.classList.add('outline-error')
+		passwd.classList.add('outline-error');
+		setTimeout(() => {
+			email.classList.remove('outline-error');
+			passwd.classList.remove('outline-error');
+		}, 3000)
+
 	}
 })

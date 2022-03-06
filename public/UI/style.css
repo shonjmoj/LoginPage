@@ -3,12 +3,16 @@
 @tailwind components;
 @tailwind utilities;
 
+.error {
+	@apply text-red-800 font-light p-2;
+}
+
 .white {
 	@apply text-white;
 }
 
 .btn {
-	@apply border p-2 rounded hover:font-bold hover:bg-white hover:text-black hover:p-3 ease-in-out duration-150;
+	@apply border rounded p-2 hover:font-bold hover:bg-white hover:text-black hover:p-3 ease-in-out duration-150;
 }
 
 .nav {
@@ -27,4 +31,16 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+}
+
+#email {
+	@apply focus:outline-stone-900;
+}
+
+#passwd {
+	@apply focus:outline-stone-900;
+}
+
+.outline-error {
+	@apply outline outline-2 outline-red-600 transition-all duration-75 placeholder:text-red-600;
 }
