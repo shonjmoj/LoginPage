@@ -2,7 +2,7 @@
   "name": "something",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "App.js",
   "scripts": {
     "build-css": "tailwindcss build public/UI/style.css -o dist/output.css --watch",
     "build": "tsc --watch",
@@ -12,7 +12,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@tailwindcss/custom-forms": "^0.2.1",
     "@types/express": "^4.17.13",
     "@types/lodash": "^4.14.179",
     "@types/node": "^17.0.21",

@@ -4,9 +4,11 @@ const signup = document.getElementById('signup');
 
 navlink?.addEventListener('click', e => {
 	e.preventDefault();
-	const navBar = document.getElementById('list');
-	if (navBar?.classList.contains('hidden'))
+	const navBar = document.getElementById('dropdownNavbar');
+
+	if (navBar?.classList.contains('hidden')) {
 		navBar?.classList.remove('hidden');
+	}
 	else
 		navBar?.classList.add('hidden');
 })
@@ -15,6 +17,7 @@ login?.addEventListener('click', e => {
 	e.preventDefault();
 	const passwd = <HTMLInputElement>document.querySelector('#passwd');
 	const email = <HTMLInputElement>document.querySelector('#email');
+
 	if (!email.value && !passwd.value) {
 		email.classList.add('outline-error')
 		passwd.classList.add('outline-error');
@@ -32,7 +35,6 @@ signup?.addEventListener('click', e => {
 	const lastName = <HTMLInputElement>document.getElementById('lastname');
 	const signEmail = <HTMLInputElement>document.getElementById('signemail');
 	const signPasswd = <HTMLInputElement>document.getElementById('signpasswd');
-
 	if (!fName.value && !lastName.value && !signEmail.value && !signPasswd.value) {
 
 		fName.classList.add('outline-error')
