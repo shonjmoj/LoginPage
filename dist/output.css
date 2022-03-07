@@ -508,18 +508,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: absolute;
 }
 
-.relative{
-  position: relative;
-}
-
-.top-0{
-  top: 0px;
-}
-
-.top-10{
-  top: 2.5rem;
-}
-
 .m-3{
   margin: 0.75rem;
 }
@@ -528,24 +516,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin: 0.5rem;
 }
 
-.m-4{
-  margin: 1rem;
-}
-
-.m-5{
-  margin: 1.25rem;
-}
-
-.m-6{
-  margin: 1.5rem;
-}
-
-.m-7{
-  margin: 1.75rem;
-}
-
-.m-10{
-  margin: 2.5rem;
+.mt-24{
+  margin-top: 6rem;
 }
 
 .mb-14{
@@ -572,22 +544,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 1.25rem;
 }
 
-.mt-5{
-  margin-top: 1.25rem;
-}
-
-.mt-10{
-  margin-top: 2.5rem;
-}
-
-.mt-20{
-  margin-top: 5rem;
-}
-
-.mt-24{
-  margin-top: 6rem;
-}
-
 .block{
   display: block;
 }
@@ -612,8 +568,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 1.5rem;
 }
 
-.w-8{
-  width: 2rem;
+.w-10{
+  width: 2.5rem;
 }
 
 .w-6{
@@ -628,12 +584,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 1.75rem;
 }
 
-.w-9{
-  width: 2.25rem;
+.w-4{
+  width: 1rem;
 }
 
-.w-10{
-  width: 2.5rem;
+.w-8{
+  width: 2rem;
+}
+
+.transform{
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .flex-col{
@@ -642,10 +602,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .items-center{
   align-items: center;
-}
-
-.justify-start{
-  justify-content: flex-start;
 }
 
 .justify-end{
@@ -681,24 +637,28 @@ Ensure the default browser behavior of the `hidden` attribute.
   fill: #fff;
 }
 
-.p-2{
-  padding: 0.5rem;
+.fill-stone-900{
+  fill: #1c1917;
 }
 
-.p-3\.5{
-  padding: 0.875rem;
+.fill-current{
+  fill: currentColor;
+}
+
+.fill-black{
+  fill: #000;
 }
 
 .p-3{
   padding: 0.75rem;
 }
 
-.p-6{
-  padding: 1.5rem;
+.p-2{
+  padding: 0.5rem;
 }
 
-.p-10{
-  padding: 2.5rem;
+.p-3\.5{
+  padding: 0.875rem;
 }
 
 .py-2{
@@ -729,6 +689,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1;
 }
 
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-normal{
   font-weight: 400;
 }
@@ -754,6 +724,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-gray-300{
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .outline-none{
@@ -839,8 +814,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .outline-error{
   outline-style: solid;
-  outline-width: 2px;
-  outline-color: #dc2626;
+  outline-width: 1px;
+  outline-color: #ef4444;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 75ms;
@@ -904,6 +879,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .hover\:fill-black:hover{
   fill: #000;
+}
+
+.hover\:fill-stone-900:hover{
+  fill: #1c1917;
 }
 
 .hover\:text-black:hover{
