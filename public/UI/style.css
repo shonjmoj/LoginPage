@@ -42,5 +42,9 @@
 }
 
 .outline-error {
-	@apply outline outline-1 outline-red-500 transition-all duration-75 placeholder:text-red-600;
+	@apply outline outline-1 outline-red-500 ease-in-out duration-200 placeholder:text-red-600;
+}
+
+.intra {
+	@apply fill-white;
 }

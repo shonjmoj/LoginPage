@@ -1,6 +1,10 @@
 const navlink = document.getElementById('dropdownNavbarLink')
 const login = document.getElementById('login');
 const signup = document.getElementById('signup');
+const intra = document.getElementById('42');
+const github = document.getElementById('github');
+const gmail = document.getElementById('gmail');
+const buttons = [intra, github, gmail];
 
 navlink?.addEventListener('click', e => {
 	e.preventDefault();
@@ -48,4 +52,13 @@ signup?.addEventListener('click', e => {
 			signPasswd.classList.remove('outline-error');
 		}, 3000)
 	}
+})
+
+buttons.forEach(button => {
+	button?.addEventListener('mouseover', e => {
+		button.firstElementChild.classList.replace('fill-white', '.intra');
+		button.addEventListener('mouseout', e => {
+			button.firstElementChild.classList.replace('.intra', 'fill-white');
+		})
+	})
 })

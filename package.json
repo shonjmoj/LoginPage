@@ -18,6 +18,7 @@
     "custom-forms": "^0.0.0",
     "express": "^4.17.3",
     "lodash": "^4.17.21",
-    "tailwindcss": "^3.0.23"
+    "tailwindcss": "^3.0.23",
+    "ts-loader": "^9.2.7"
   }
 }
