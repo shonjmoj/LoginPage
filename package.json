@@ -4,9 +4,8 @@
   "description": "",
   "main": "App.js",
   "scripts": {
-    "build-css": "tailwindcss build public/UI/style.css -o dist/output.css",
-    "build": "tsc",
-    "start": "nodemon public/App.js"
+    "build-css": "tailwindcss build public/CSS/style.css -o dist/output.css",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +21,7 @@
     "ts-loader": "^9.2.7"
   },
   "dependencies": {
-    "ts-node": "^10.7.0"
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
   }
 }

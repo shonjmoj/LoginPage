@@ -629,10 +629,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   fill: #fff;
 }
 
-.fill-stone-900{
-  fill: #1c1917;
-}
-
 .p-2{
   padding: 0.5rem;
 }
@@ -856,10 +852,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hover\:bg-white:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.hover\:fill-black:hover{
-  fill: #000;
 }
 
 .hover\:text-black:hover{
