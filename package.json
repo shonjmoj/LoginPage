@@ -4,7 +4,7 @@
   "description": "",
   "main": "App.js",
   "scripts": {
-    "build-css": "tailwindcss build public/CSS/style.css -o dist/output.css",
+    "build-css": "tailwindcss build public/CSS/style.css -o public/CSS/output.css",
     "build": "tsc"
   },
   "keywords": [],
